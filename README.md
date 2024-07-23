@@ -1,7 +1,9 @@
 # Distributed Systems
 
 ### The Absolute Best Book
-- [Designing Data Intensive Applications - Martin Kleppmann](https://github.com/user-attachments/files/16344190/Designing.Data.Intensive.Applications.pdf) (Going through it right now)
+- [Designing Data Intensive Applications - Martin Kleppmann](https://github.com/user-attachments/files/16344190/Designing.Data.Intensive.Applications.pdf)
+  - Ch1: Reliable, Scalable and Maintainable applications
+  - 
 
 ### MIT Course
 - [MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) (Done with 8/20)
