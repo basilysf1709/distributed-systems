@@ -276,7 +276,7 @@ updates are propagated, and all replicas are consistent.
     - Write Path
     - Read Path [Check diagrams in book]
 
-![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/985d1da1-e78a-4853-897d-222be91bf7ad/Untitled.png)
+<img width="653" alt="Screenshot 1446-01-18 at 8 56 54 PM" src="https://github.com/user-attachments/assets/b3c93342-e296-45e4-ab29-b1537a51c07b">
 
 Ch_7: Design a Unique ID Generator in Distributed Systems:
 
@@ -289,15 +289,17 @@ Ch_7: Design a Unique ID Generator in Distributed Systems:
             - It does not scale well when a server is added or removed.
     - Universally unique identifier (UUID)
     
-    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/c42d84d7-8ab6-49d0-ac12-12a59512eccc/Untitled.png)
+    <img width="680" alt="Screenshot 1446-01-18 at 8 57 12 PM" src="https://github.com/user-attachments/assets/87de2d4e-f620-4546-a613-ebe3eba60362">
+
     
     - Ticket server
-    
-    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/259d4201-33ed-4de2-904b-ec41d6eea548/Untitled.png)
+<img width="673" alt="Screenshot 1446-01-18 at 8 57 33 PM" src="https://github.com/user-attachments/assets/8d37e110-67ae-47b6-a28f-f6ec652d5ffe">
+
     
     - Twitter snowflake approach
     
-    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/f5ae985e-602a-4331-a299-541a3b6d6e36/Untitled.png)
+    <img width="681" alt="Screenshot 1446-01-18 at 8 57 57 PM" src="https://github.com/user-attachments/assets/ea1a9a04-c83c-44eb-b014-82d8930bd306">
+
     
     - will fail after 69 years
 - should look into these for further talking points:
@@ -313,9 +315,8 @@ Ch_8: Design a url shortener:
 - Hash + collision resolution:
     - Check bloom filtering ??
 - Base 62 conversion:
-    
-    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/45d959a7-af1e-4f1e-89ae-e1745d44d91a/Untitled.png)
-    
+    <img width="646" alt="Screenshot 1446-01-18 at 8 58 24 PM" src="https://github.com/user-attachments/assets/fa59dff9-6c12-4351-b4e0-e5dc1f3579d6">
+
 
 Ch_9: Design a web crawler:
 
@@ -323,6 +324,6 @@ Ch_9: Design a web crawler:
 
 Ch_10: Design a notification system:
 
-![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/e828d041-13e5-4ca9-ad9c-e6c423e930ce/Untitled.png)
+<img width="522" alt="Screenshot 1446-01-18 at 8 58 44 PM" src="https://github.com/user-attachments/assets/a5538cf8-ce23-4731-9f10-716bb58e501b">
 
-Ch_11 and Ch_12 in book read it
+
