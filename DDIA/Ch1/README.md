@@ -1,0 +1,12 @@
+# Ch1 Super concise summary
+- Desiging Data-intensive applications require **reliability**, **scalability**, and **maintainability**.
+- **Reliability**: System should work correctly despite hardware/software faults and human errors.
+- **Scalability:** System should be able to handle increased load efficiently.
+- **Maintainability:** Make systems easier to operate, understand, and evolve over time.
+- Load parameters and metrics are extremely important when it comes to dicussing scalability
+- Response time percentiles are better metrics than averages for measuring performance. 
+- For distributed systems, sometimes it's important to look at the slowest request to understand performance of the overall system.
+- Approaches to handle load: vertical scaling (more powerful machines) and horizontal scaling (distributing across machines).
+- Good abstractions and removing accidental complexity are key to managing system complexity.
+- Evolvability is important as system requirements constantly change.
+- There's no one-size-fits-all scalable architecture; solutions depend on specific use cases.
