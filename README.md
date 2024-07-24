@@ -8,7 +8,7 @@
 ### MIT Course
 - [MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) (Done with 8/20)
 
-### Readings
+### High Quality Resources
 - [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
 ### Practical Learnings
