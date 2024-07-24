@@ -326,4 +326,6 @@ Ch_10: Design a notification system:
 
 <img width="522" alt="Screenshot 1446-01-18 at 8 58 44 PM" src="https://github.com/user-attachments/assets/a5538cf8-ce23-4731-9f10-716bb58e501b">
 
+Haven't written sumamries for chapter 11 and 12 (harder ones to understand)
+
 
