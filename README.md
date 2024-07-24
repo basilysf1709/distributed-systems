@@ -23,5 +23,5 @@
 
 ### Practical Learnings
 - [Kubernetes: A Basic Overview](https://www.youtube.com/watch?v=X48VuDVv0do) ✅
-- [System Design Interviews - Alex Xu](https://github.com/basilysf1709/distributed-systems/tree/main/SYS-DES-XU/Summary)
+- [System Design Interviews - Alex Xu](https://github.com/basilysf1709/distributed-systems/tree/main/SYS-DES-XU/Summary) ✅
 
