@@ -51,8 +51,8 @@ Ch_1: Scale from Zero to Millions:
         - this is complicated as there is a case where data is not replicated to the slave and it could be promoted to master
         - ^ to counteract this, circular replication or multi master models are used
             
-            ![Screenshot 2024-01-27 at 6.33.12 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/36d44371-1b3c-49fc-b098-86df34fd0c20/Screenshot_2024-01-27_at_6.33.12_PM.png)
-            
+<img width="625" alt="Screenshot 1446-01-18 at 8 53 19 PM" src="https://github.com/user-attachments/assets/2343227d-d08f-4c4f-af62-5592aaf0dbd9">
+
 - Cache
     - The cache tier is a temporary data store layer, much faster than the database
     - used for reducing database workloads, by adding a layer between db and server for frequent and similar reads
@@ -81,7 +81,8 @@ Ch_1: Scale from Zero to Millions:
 
 - Scalable architecture: (before data centres for geo routing)
     
-    ![Screenshot 2024-01-29 at 2.28.04 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/931e1d43-6c84-4dd7-b995-504ba4bb1856/Screenshot_2024-01-29_at_2.28.04_PM.png)
+<img width="678" alt="Screenshot 1446-01-18 at 8 53 51 PM" src="https://github.com/user-attachments/assets/666072b5-06c0-411c-bf1f-a2a94e00136e">
+
     
 - Technical Challenges for data centers:
     - Traffic redirection:
@@ -132,8 +133,9 @@ Ch_4: Design a Rate Limiter:
     - Prevents servers from being overloaded
 - Designing a Rate Limiter
     - To Ask:
+<img width="576" alt="Screenshot 1446-01-18 at 8 54 12 PM" src="https://github.com/user-attachments/assets/763951c7-ba7a-47ec-95ce-fa78f2528889">
 
-![Screenshot 2024-01-29 at 6.53.19 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/1d66bd42-8125-4ff1-8472-362ea4d62df1/Screenshot_2024-01-29_at_6.53.19_PM.png)
+
 
 - You can have a:
     - Rate limiter in middleware
@@ -178,8 +180,8 @@ Ch_4: Design a Rate Limiter:
     - Redis is used as it is an in-memory cache
     ****
         
-        ![Screenshot 2024-02-04 at 11.41.59 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/7d9ad366-3e5a-4048-a191-a1354cf03e60/Screenshot_2024-02-04_at_11.41.59_AM.png)
-        
+        <img width="654" alt="Screenshot 1446-01-18 at 8 54 33 PM" src="https://github.com/user-attachments/assets/f1521e54-c6af-43c4-9ba3-5f045314c797">
+
     - General design ^
 
 - Rate Limiter in a distributed environment:
@@ -212,7 +214,8 @@ Ch_5: Design consistent hasing:
             - To solve this you have virtual nodes:
             - s_0_0, s_0_1, ⇒ both means Server 0
             
-            ![Screenshot 2024-02-04 at 12.04.24 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/24ee8f72-6a80-4545-8060-8ebe147c672d/Screenshot_2024-02-04_at_12.04.24_PM.png)
+            <img width="627" alt="Screenshot 1446-01-18 at 8 55 00 PM" src="https://github.com/user-attachments/assets/4be107bd-024c-4b9f-9f83-fa6c847e4aa8">
+
             
             - The standard deviation will be smaller when we increase the number of virtual nodes. However, more spaces are needed to store data about virtual nodes. This is a tradeoff, and we can tune the number of virtual nodes to fit our system requirements. (imp)
             - For redistribution you go anti clockwise
@@ -226,8 +229,8 @@ Ch_6: Design a key value store:
     - fast, but good for scalability as it reaches capacity pretty quickly
 - Distributed server key-value store:
     - CAP Theorem:
+<img width="709" alt="Screenshot 1446-01-18 at 8 55 18 PM" src="https://github.com/user-attachments/assets/8286737c-5922-48d4-ba0e-32218434ef42">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/c8d9c6b3-5c63-41fd-9219-14a3c3bb1f37/Untitled.png)
 
 - CA cant be possible in real world because network failures are bound to happen
 - Real world Distributed Systems:
@@ -236,7 +239,8 @@ Ch_6: Design a key value store:
     - AP System: (Availability)
         - Keeps accepting Read
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/a08ebcd2-a034-4947-9bcc-fe9ac8b3779b/Untitled.png)
+<img width="647" alt="Screenshot 1446-01-18 at 8 55 38 PM" src="https://github.com/user-attachments/assets/f9ba08dc-9a1f-4f11-ae42-5ac294c9e3aa">
+
 
 - Strong consistency: any read operation returns a value corresponding to the result of the
 most updated write data item. A client never sees out-of-date data.
@@ -272,7 +276,7 @@ updates are propagated, and all replicas are consistent.
     - Write Path
     - Read Path [Check diagrams in book]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/985d1da1-e78a-4853-897d-222be91bf7ad/Untitled.png)
+![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/985d1da1-e78a-4853-897d-222be91bf7ad/Untitled.png)
 
 Ch_7: Design a Unique ID Generator in Distributed Systems:
 
@@ -285,15 +289,15 @@ Ch_7: Design a Unique ID Generator in Distributed Systems:
             - It does not scale well when a server is added or removed.
     - Universally unique identifier (UUID)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/c42d84d7-8ab6-49d0-ac12-12a59512eccc/Untitled.png)
+    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/c42d84d7-8ab6-49d0-ac12-12a59512eccc/Untitled.png)
     
     - Ticket server
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/259d4201-33ed-4de2-904b-ec41d6eea548/Untitled.png)
+    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/259d4201-33ed-4de2-904b-ec41d6eea548/Untitled.png)
     
     - Twitter snowflake approach
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/f5ae985e-602a-4331-a299-541a3b6d6e36/Untitled.png)
+    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/f5ae985e-602a-4331-a299-541a3b6d6e36/Untitled.png)
     
     - will fail after 69 years
 - should look into these for further talking points:
@@ -310,7 +314,7 @@ Ch_8: Design a url shortener:
     - Check bloom filtering ??
 - Base 62 conversion:
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/45d959a7-af1e-4f1e-89ae-e1745d44d91a/Untitled.png)
+    ![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/45d959a7-af1e-4f1e-89ae-e1745d44d91a/Untitled.png)
     
 
 Ch_9: Design a web crawler:
@@ -319,6 +323,6 @@ Ch_9: Design a web crawler:
 
 Ch_10: Design a notification system:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/e828d041-13e5-4ca9-ad9c-e6c423e930ce/Untitled.png)
+![Diagram](https://prod-files-secure.s3.us-west-2.amazonaws.com/70c3badf-7b78-4bb0-9263-f7c8e5e66fec/e828d041-13e5-4ca9-ad9c-e6c423e930ce/Untitled.png)
 
 Ch_11 and Ch_12 in book read it
