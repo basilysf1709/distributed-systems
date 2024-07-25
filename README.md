@@ -14,18 +14,18 @@
 Progress: [█░░░░░░░░░░░░] 5%
 ```
 
-1. [✅ Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch1)
-2. [✅ Data Models and Query Languages](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch2)
-3. [Storage and Retrieval](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch3)
-4. [Encoding and Evolution](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch4)
-5. [Replication](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch5)
-6. [Partitioning](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch6)
-7. [Transactions](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch7)
-8. [The Trouble with Distributed Systems](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch8)
-9. [Consistency and Consensus](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch9)
-10. [Batch Processing](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch10)
-11. [Stream Processing](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch11)
-12. [The Future of Data Systems](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch12)
+1. [✅ Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch1)
+2. [✅ Data Models and Query Languages](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch2)
+3. [Storage and Retrieval](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch3)
+4. [Encoding and Evolution](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch4)
+5. [Replication](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch5)
+6. [Partitioning](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch6)
+7. [Transactions](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch7)
+8. [The Trouble with Distributed Systems](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch8)
+9. [Consistency and Consensus](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch9)
+10. [Batch Processing](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch10)
+11. [Stream Processing](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch11)
+12. [The Future of Data Systems](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch12)
 
 📖 [Access the full book here](https://github.com/user-attachments/files/16344190/Designing.Data.Intensive.Applications.pdf)
 
@@ -59,7 +59,7 @@ Progress: [████████░░░░░░░░░░░░] 40%
 
 ```mermaid
 graph TD
-    A[Start] --> B[DDIA Book]
+    A[Start] --> B[designing-data-intensive-applications Book]
     B --> C[MIT Course]
     C --> D[High-Quality Resources]
     D --> E[Practical Learning]
