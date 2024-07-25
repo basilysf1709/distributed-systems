@@ -45,13 +45,14 @@ Progress: [████████░░░░░░░░░░░░] 40%
 ## 📘 High-Quality Resources
 
 - 📑 [Dynamo: Amazon's Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+- 🛢 [Tabular Comparison of Key Value Stores](https://github.com/basilysf1709/distributed-systems/tree/main/databases)
 
 ---
 
 ## 💻 Practical Learnings
 
 - [✅ Kubernetes: A Basic Overview](https://www.youtube.com/watch?v=X48VuDVv0do)
-- [✅ Systems Design Interviews - Alex Xu](https://github.com/basilysf1709/distributed-systems/tree/main/SYS-DES-XU/Summary)
+- [✅ Systems Design Interviews - Alex Xu](https://github.com/basilysf1709/distributed-systems/tree/main/system-design-interviews/Summary)
 
 ---
 
