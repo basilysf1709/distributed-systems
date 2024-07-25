@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  goapi:
+    build:
+      context: go-api
+      dockerfile: server.Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - GIN_MODE=release
