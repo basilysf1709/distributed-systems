@@ -5,21 +5,18 @@
 
 | Database | Type | Replication Technique | Consistency Protocol | Node Discovery | Partitioning |
 |----------|------|----------------------|----------------------|----------------|--------------|
-| [Cassandra]() | Wide-column store | Leaderless | Quorum | Gossip Protocol | Hash-based |
-| MongoDB | Document store | Single-leader | Consensus (Raft) | Config Servers | Range-based and Hash-based |
-| Riak | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
-| CouchDB | Document store | Multi-master | MVCC | Cluster-aware | Hash-based |
-| DynamoDB (AWS) | Key-value & Document | Leaderless | Eventual Consistency | Proprietary | Consistent Hashing |
-| HBase | Wide-column store | Single-leader | Consensus (ZooKeeper) | ZooKeeper | Range-based |
-| Couchbase | Document store | Multi-master | MVCC | Gossip Protocol | Hash-based |
-| Redis | Key-value store | Single-leader | Eventual Consistency | Sentinel | Hash slots |
-| Neo4j | Graph database | Causal Clustering | Raft | Core Discovery | Graph partitioning |
-| Cosmos DB (Azure) | Multi-model | Multi-master (and others) | Tunable Consistency | Proprietary | Hash-based |
-| Cloud Firestore (Google) | Document store | Multi-region | Strong Consistency | Proprietary | Automatic |
-| InfluxDB | Time series | Single-leader | Eventual Consistency | Meta nodes | Time-based sharding |
-| ArangoDB | Multi-model | Single-leader | Eventual Consistency | Agency (Raft-based) | Hash-based |
-| ScyllaDB | Wide-column store | Primary-backup | Tunable Consistency | Gossip Protocol | Consistent Hashing |
-| Elasticsearch | Search engine & Document store | Primary-backup | Eventual Consistency | Zen Discovery | Hash-based |
+| [Cassandra](https://cassandra.apache.org/doc/latest/architecture/overview.html) | Wide-column store | Leaderless | Quorum | Gossip Protocol | Hash-based |
+| [MongoDB](https://www.mongodb.com/docs/manual/core/architecture-concepts) | Document store | Single-leader | Consensus (Raft) | Config Servers | Range-based and Hash-based |
+| [Riak](https://docs.riak.com/riak/kv/latest/learn/concepts/index.html) | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
+| [CouchDB](https://docs.couchdb.org/en/stable/intro/overview.html) | Document store | Multi-master | MVCC | Cluster-aware | Hash-based |
+| [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.html) | Key-value & Document | Leaderless | Eventual Consistency | Proprietary | Consistent Hashing |
+| [HBase](https://hbase.apache.org/book.html#architecture) | Wide-column store | Single-leader | Consensus (ZooKeeper) | ZooKeeper | Range-based |
+| [Couchbase](https://docs.couchbase.com/server/current/learn/architecture-overview.html) | Document store | Multi-master | MVCC | Gossip Protocol | Hash-based |
+| [Redis](https://redis.io/topics/architecture) | Key-value store | Single-leader | Eventual Consistency | Sentinel | Hash slots |
+| [Neo4j](https://neo4j.com/docs/operations-manual/current/architecture/) | Graph database | Causal Clustering | Raft | Core Discovery | Graph partitioning |
+| [Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally) | Multi-model | Multi-master (and others) | Tunable Consistency | Proprietary | Hash-based |
+| [Cloud Firestore](https://firebase.google.com/docs/firestore/data-model) | Document store | Multi-region | Strong Consistency | Proprietary | Automatic |
+| [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Primary-backup | Tunable Consistency | Gossip Protocol | Consistent Hashing |
 
 ---
 
