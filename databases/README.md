@@ -15,7 +15,7 @@
 | [HBase](https://hbase.apache.org/book.html#architecture) | Wide-column store | Single-leader | Consensus (ZooKeeper) | ZooKeeper | Range-based |
 | [Cloud Firestore](https://firebase.google.com/docs/firestore/data-model) | Document store | Multi-region | Strong Consistency | Proprietary | Automatic |
 | [CouchDB](https://docs.couchdb.org/en/stable/intro/overview.html) | Document store | Leaderless | MVCC | Cluster-aware | Hash-based |
-| [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Primary-backup | Tunable Consistency | Gossip Protocol | Consistent Hashing |
+| [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Leaderless | Tunable Consistency | Gossip Protocol | Consistent Hashing |
 | [Riak](https://docs.riak.com/riak/kv/latest/learn/concepts/index.html) | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
 
 ---
