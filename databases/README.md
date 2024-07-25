@@ -20,6 +20,14 @@
 
 ---
 
+### To be Noted
+1. **Redis:** Redis Cluster uses a different model than Redis with Sentinel.
+2. **DynamoDB:** Offers both eventual and strong consistency options.
+3. **Couchbase:** Provides tunable consistency levels, not just MVCC.
+4. **Cosmos DB:** Replication method varies based on chosen consistency level and API.
+5. **Cloud Firestore:** Multi-region setup functions as leaderless replication.
+6. **Neo4j:** Causal Clustering is specific to the enterprise edition.
+
 ## History
 
 ```mermaid
