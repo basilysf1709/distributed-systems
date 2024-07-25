@@ -73,5 +73,3 @@ graph TD
 <p align="center">
   <i>Happy learning! May your distributed systems knowledge scale infinitely! 🚀</i>
 </p>
-
-```
