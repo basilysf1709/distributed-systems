@@ -83,15 +83,3 @@ graph TD
 </p>
 
 ```
-
-This enhanced README now includes:
-
-1. A centered logo placeholder at the top
-2. Status badges for quick information
-3. ASCII progress bars for the book and MIT course
-4. A Mermaid graph showing a learning roadmap
-5. More structured visual hierarchy
-
-Note that for the Mermaid graph to render correctly, the repository needs to have Mermaid support enabled. Also, you'll need to replace the placeholder image URLs with actual images for them to display properly.
-
-Would you like me to explain any part of this design or make further modifications?​​​​​​​​​​​​​​​​
