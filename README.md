@@ -10,14 +10,14 @@
   <img src="https://img.shields.io/badge/contributions-welcome-orange" alt="Contributions Welcome"/>
 </p>
 
-## 📚 The Ultimate Guide: Designing Data-Intensive Applications
+## 📚 The Absolute Best Book: Designing Data-Intensive Applications
 
-![Book Cover](https://your-image-url-here.com/ddia-cover.jpg)
+<img width="389" alt="Screenshot 1446-01-19 at 2 04 02 PM" src="https://github.com/user-attachments/assets/19a57547-30c1-4f41-8552-586647dbd23d">
 
 Dive into Martin Kleppmann's masterpiece:
 
 ```ascii
-Progress: [██████████████░░░░░░] 70%
+Progress: [█░░░░░░░░░░░░] 5%
 ```
 
 1. [✅ Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/DDIA/Ch1)
