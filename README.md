@@ -1,10 +1,6 @@
 # 🌐 Distributed Systems
 
 <p align="center">
-  <img src="https://your-logo-url-here.com/distributed-systems-logo.png" alt="Distributed Systems Logo" width="200"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/status-in_progress-brightgreen" alt="Status: In Progress"/>
   <img src="https://img.shields.io/badge/last_update-2024--07--25-blue" alt="Last Update"/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange" alt="Contributions Welcome"/>
@@ -13,8 +9,6 @@
 ## 📚 The Absolute Best Book: Designing Data-Intensive Applications
 
 <img width="389" alt="Screenshot 1446-01-19 at 2 04 02 PM" src="https://github.com/user-attachments/assets/19a57547-30c1-4f41-8552-586647dbd23d">
-
-Dive into Martin Kleppmann's masterpiece:
 
 ```ascii
 Progress: [█░░░░░░░░░░░░] 5%
@@ -38,8 +32,6 @@ Progress: [█░░░░░░░░░░░░] 5%
 ---
 
 ## 🎓 MIT's Distributed Systems Course
-
-![MIT Logo](https://your-image-url-here.com/mit-logo.png)
 
 ```ascii
 Progress: [████████░░░░░░░░░░░░] 40%
