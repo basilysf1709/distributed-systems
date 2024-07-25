@@ -1,6 +1,3 @@
-Certainly! I'll enhance the README further with some ASCII art, badges, and a progress bar to make it even more visually appealing. Here's an updated version:
-
-```markdown
 # 🌐 Distributed Systems
 
 <p align="center">
