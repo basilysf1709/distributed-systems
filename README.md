@@ -64,8 +64,6 @@ graph TD
     C --> D[High-Quality Resources]
     D --> E[Practical Learning]
     E --> F[Advanced Topics]
-    F --> G[Project Implementation]
-    G --> H[Continuous Learning]
 ```
 
 ---
