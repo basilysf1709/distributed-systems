@@ -17,6 +17,7 @@
 | [CouchDB](https://docs.couchdb.org/en/stable/intro/overview.html) | Document store | Leaderless | MVCC | Cluster-aware | Hash-based |
 | [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Leaderless | Tunable Consistency | Gossip Protocol | Consistent Hashing |
 | [Riak](https://docs.riak.com/riak/kv/latest/learn/concepts/index.html) | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
+| [Fauna]([https://docs.fauna.com](https://docs.fauna.com/fauna/current/get-started/overview/#distributed-service) | Document-relational store | Multi-region Consensus (Raft+Calvinesque) | Strongly consistent | Proprietary | Consistent Hashing |
 
 ---
 
@@ -24,7 +25,7 @@
 1. **Redis:** Redis Cluster uses a different model than Redis with Sentinel.
 2. **DynamoDB:** Offers both eventual and strong consistency options.
 3. **Couchbase:** Provides tunable consistency levels, not just MVCC.
-4. **Cosmos DB:** Replication method varies based on chosen consistency level and API.
+4. **Cosmos DB:** Replication method varies based on the chosen consistency level and API.
 5. **Cloud Firestore:** Multi-region setup functions as leaderless replication.
 6. **Neo4j:** Causal Clustering is specific to the enterprise edition.
 
