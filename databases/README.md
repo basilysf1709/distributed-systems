@@ -7,6 +7,7 @@
 |----------|------|----------------------|----------------------|----------------|--------------|
 | [MongoDB](https://www.mongodb.com/docs/manual/core/architecture-concepts) | Document store | Single-leader | Consensus (Raft) | Config Servers | Range-based and Hash-based |
 | [Redis](https://redis.io/topics/architecture) | Key-value store | Single-leader | Eventual Consistency | Sentinel | Hash slots |
+| [Valkey](https://valkey.io/) | Key-value store | Single-leader | Eventual Consistency | Sentinel | Hash slots |
 | [Cassandra](https://cassandra.apache.org/doc/latest/architecture/overview.html) | Wide-column store | Leaderless | Quorum | Gossip Protocol | Hash-based |
 | [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.html) | Key-value & Document | Leaderless | Eventual Consistency (also offers strong consistency) | Proprietary | Consistent Hashing |
 | [Couchbase](https://docs.couchbase.com/server/current/learn/architecture-overview.html) | Document store | Leaderless | MVCC | Gossip Protocol | Hash-based |
@@ -18,7 +19,8 @@
 | [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Leaderless | Tunable Consistency | Gossip Protocol | Consistent Hashing |
 | [Riak](https://docs.riak.com/riak/kv/latest/learn/concepts/index.html) | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
 | [Fauna]([https://docs.fauna.com](https://docs.fauna.com/fauna/current/get-started/overview/#distributed-service) | Document-relational store | Multi-region Consensus (Raft+Calvinesque) | Strongly consistent | Proprietary | Consistent Hashing |
-
+| [ETCD3]([https://etcd.io/docs/v3.4/learning/architecture/](https://etcd.io/docs/v3.5/learning/why/)) | Key-value store | Multi-leader | Consensus (Raft) | Self-discovery | Hash-based |
+| [ZooKeeper](https://zookeeper.apache.org/doc/r3.5.9/zookeeperOver.html) | Coordination service | Single-leader | Consensus (Zab) | Dynamic Discovery | N/A |
 ---
 
 ### To be Noted
