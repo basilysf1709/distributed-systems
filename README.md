@@ -60,11 +60,40 @@ Progress: [████████░░░░░░░░░░░░] 40%
 
 ```mermaid
 graph TD
-    A[Start] --> B[designing-data-intensive-applications Book]
-    B --> C[MIT Course]
-    C --> D[High-Quality Resources]
-    D --> E[Practical Learning]
-    E --> F[Advanced Topics]
+    A[Start] --> B[Fundamentals]
+    B --> C[Designing Data-Intensive Applications Book]
+    B --> D[MIT Distributed Systems Course]
+    
+    C --> E[Data Models and Storage]
+    C --> F[Replication and Partitioning]
+    C --> G[Transactions and Consistency]
+    
+    D --> H[RPC and Threads]
+    D --> I[Fault Tolerance]
+    D --> J[Consensus Algorithms]
+    
+    E --> K[Practical Learning]
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> K
+    
+    K --> L[Kubernetes Basics]
+    K --> M[Key-Value Stores Comparison]
+    
+    L --> N[Advanced Topics]
+    M --> N
+    
+    N --> O[Amazon Dynamo Paper]
+    N --> P[Google Systems Papers]
+    N --> Q[Distributed Algorithms]
+    
+    O --> R[System Design Interviews]
+    P --> R
+    Q --> R
+    
+    R --> S[Continued Learning and Practice]
 ```
 
 ---
