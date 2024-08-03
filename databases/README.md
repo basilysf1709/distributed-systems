@@ -19,7 +19,7 @@
 | [ScyllaDB](https://docs.scylladb.com/stable/architecture/) | Wide-column store | Leaderless | Tunable Consistency | Gossip Protocol | Consistent Hashing |
 | [Riak](https://docs.riak.com/riak/kv/latest/learn/concepts/index.html) | Key-value store | Leaderless | Vector Clocks | Gossip Protocol | Consistent Hashing |
 | [Fauna](https://docs.fauna.com/fauna/current/get-started/overview/#distributed-service) | Document-relational store | Multi-region Consensus (Raft+Calvinesque) | Strongly consistent | Proprietary | Consistent Hashing |
-| [ETCD3](https://etcd.io/docs/v3.4/learning/architecture/](https://etcd.io/docs/v3.5/learning/why/) | Key-value store | Multi-leader | Consensus (Raft) | Self-discovery | Hash-based |
+| [ETCD3](https://etcd.io/docs/v3.4/learning/architecture/) | Key-value store | Multi-leader | Consensus (Raft) | Self-discovery | Hash-based |
 | [ZooKeeper](https://zookeeper.apache.org/doc/r3.5.9/zookeeperOver.html) | Coordination service | Single-leader | Consensus (Zab) | Dynamic Discovery | N/A |
 ---
 
