@@ -35,3 +35,7 @@ The program provides an interactive command-line interface with the following co
 - `get <key>`: Find which server is responsible for a given key
 - `visualize`: Display an ASCII representation of the current hash ring
 - `quit`: Exit the program
+
+## Visualization by ByteByteGo
+
+<img width="975" alt="Screenshot 1446-01-28 at 1 18 04 PM" src="https://github.com/user-attachments/assets/28068f35-a0e3-4a0c-ad7c-7db463f28a1f">
