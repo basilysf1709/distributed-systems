@@ -10,6 +10,8 @@
 
 <img width="389" alt="Screenshot 1446-01-19 at 2 04 02 PM" src="https://github.com/user-attachments/assets/19a57547-30c1-4f41-8552-586647dbd23d">
 
+### Chapters
+
 1. [Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch1)
 2. [Data Models and Query Languages](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch2)
 3. [Storage and Retrieval](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch3)
