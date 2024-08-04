@@ -10,12 +10,10 @@
 
 <img width="389" alt="Screenshot 1446-01-19 at 2 04 02 PM" src="https://github.com/user-attachments/assets/19a57547-30c1-4f41-8552-586647dbd23d">
 
-```ascii
-Progress: [█░░░░░░░░░░░░] 5%
-```
+### Chapters
 
-1. [✅ Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch1)
-2. [✅ Data Models and Query Languages](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch2)
+1. [Reliable, Scalable, and Maintainable Applications](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch1)
+2. [Data Models and Query Languages](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch2)
 3. [Storage and Retrieval](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch3)
 4. [Encoding and Evolution](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch4)
 5. [Replication](https://github.com/basilysf1709/distributed-systems/tree/main/designing-data-intensive-applications/Ch5)
@@ -32,11 +30,6 @@ Progress: [█░░░░░░░░░░░░] 5%
 ---
 
 ## 🎓 MIT's Distributed Systems Course
-
-```ascii
-Progress: [████████░░░░░░░░░░░░] 40%
-8/20 lectures completed
-```
 
 🔗 [Watch the full course](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
@@ -60,11 +53,40 @@ Progress: [████████░░░░░░░░░░░░] 40%
 
 ```mermaid
 graph TD
-    A[Start] --> B[designing-data-intensive-applications Book]
-    B --> C[MIT Course]
-    C --> D[High-Quality Resources]
-    D --> E[Practical Learning]
-    E --> F[Advanced Topics]
+    A[Start] --> B[Fundamentals]
+    B --> C[Designing Data-Intensive Applications Book]
+    B --> D[MIT Distributed Systems Course]
+    
+    C --> E[Data Models and Storage]
+    C --> F[Replication and Partitioning]
+    C --> G[Transactions and Consistency]
+    
+    D --> H[RPC and Threads]
+    D --> I[Fault Tolerance]
+    D --> J[Consensus Algorithms]
+    
+    E --> K[Practical Learning]
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> K
+    
+    K --> L[Kubernetes Basics]
+    K --> M[Key-Value Stores Comparison]
+    
+    L --> N[Advanced Topics]
+    M --> N
+    
+    N --> O[Amazon Dynamo Paper]
+    N --> P[Google Systems Papers]
+    N --> Q[Distributed Algorithms]
+    
+    O --> R[System Design Interviews]
+    P --> R
+    Q --> R
+    
+    R --> S[Continued Learning and Practice]
 ```
 
 ---
