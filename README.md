@@ -49,6 +49,13 @@
 
 ---
 
+## 💻 Algorithms
+
+- [Consistent Hashing in Zig](https://github.com/basilysf1709/distributed-systems/tree/main/algorithms/consistent-hashing)
+- [Hinted Handoff in Zig](https://github.com/basilysf1709/distributed-systems/tree/main/algorithms/hinted-handoff)
+
+---
+
 ## 📊 Learning Roadmap
 
 ```mermaid
