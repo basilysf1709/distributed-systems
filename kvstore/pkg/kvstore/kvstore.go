@@ -25,3 +25,7 @@ func (kvs *KVStore) Set(key, value string) error {
 func (kvs *KVStore) Delete(key string) error {
 	return kvs.store.Delete(key)
 }
+
+func (kvs *KVStore) List() (map[string]string, error) {
+	return kvs.store.List()
+}
