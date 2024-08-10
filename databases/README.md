@@ -40,7 +40,6 @@ graph TD
     B --> D[Key-Value Stores]
     B --> E[Column-Family Stores]
     B --> F[Graph Databases]
-
     C --> G[MongoDB 2009]
     C --> H[CouchDB 2005]
     D --> I[Redis 2009]
@@ -49,16 +48,13 @@ graph TD
     E --> L[HBase 2008]
     F --> M[Neo4j 2007]
     F --> N[OrientDB 2010]
-
     O[Google's BigTable 2006] --> K
     O --> L
     P[Amazon's Dynamo 2007] --> J
     Q[Facebook's Cassandra 2008] --> K
-
     R[CAP Theorem 2000] --> B
     S[Web 2.0 Era] --> B
     T[Big Data Challenges] --> B
-
     U[NewSQL Movement] --> V[Google Spanner 2012]
     U --> W[CockroachDB 2014]
     B --> U

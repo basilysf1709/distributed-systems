@@ -60,40 +60,62 @@
 
 ```mermaid
 graph TD
-    A[Start] --> B[Fundamentals]
-    B --> C[Designing Data-Intensive Applications Book]
-    B --> D[MIT Distributed Systems Course]
-    
-    C --> E[Data Models and Storage]
-    C --> F[Replication and Partitioning]
-    C --> G[Transactions and Consistency]
-    
-    D --> H[RPC and Threads]
-    D --> I[Fault Tolerance]
-    D --> J[Consensus Algorithms]
-    
-    E --> K[Practical Learning]
-    F --> K
-    G --> K
-    H --> K
-    I --> K
-    J --> K
-    
-    K --> L[Kubernetes Basics]
-    K --> M[Key-Value Stores Comparison]
-    
-    L --> N[Advanced Topics]
-    M --> N
-    
-    N --> O[Amazon Dynamo Paper]
-    N --> P[Google Systems Papers]
-    N --> Q[Distributed Algorithms]
-    
-    O --> R[System Design Interviews]
-    P --> R
-    Q --> R
-    
-    R --> S[Continued Learning and Practice]
+    A[Distributed Systems] --> B[Fundamentals]
+    A --> C[Advanced Topics]
+    A --> D[Database Evolution]
+    A --> E[Modern Infrastructure]
+
+    B --> F[Key Concepts]
+    B --> G[Landmark Papers]
+    B --> H[Distributed Algorithms]
+
+    C --> I[System Design Patterns]
+    C --> J[Streaming Systems]
+    C --> K[Machine Learning in Distributed Systems]
+    C --> L[Monitoring and Tracing]
+
+    D --> M[Relational Databases]
+    D --> N[NoSQL Movement]
+    D --> O[NewSQL]
+
+    E --> P[Containerization]
+    E --> Q[Serverless Computing]
+    E --> R[Service Mesh]
+
+    N --> S[Document Stores]
+    N --> T[Key-Value Stores]
+    N --> U[Column-Family Stores]
+    N --> V[Graph Databases]
+
+    F --> W[CAP Theorem]
+    F --> X[Consensus]
+    F --> Y[Replication]
+    F --> Z[Partitioning]
+
+    G --> AA[Google File System]
+    G --> AB[MapReduce]
+    G --> AC[BigTable]
+    G --> AD[Dynamo]
+
+    H --> AE[Paxos]
+    H --> AF[Raft]
+    H --> AG[Two-Phase Commit]
+
+    I --> AH[SAGA Pattern]
+    I --> AI[Event Sourcing]
+    I --> AJ[CQRS]
+
+    J --> AK[Kafka]
+    J --> AL[Flink]
+
+    L --> AM[Prometheus]
+    L --> AN[Jaeger]
+
+    O --> AO[Google Spanner]
+    O --> AP[CockroachDB]
+
+    P --> AQ[Docker]
+    P --> AR[Kubernetes]
 ```
 
 ---
