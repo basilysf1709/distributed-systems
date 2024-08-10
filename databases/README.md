@@ -35,151 +35,27 @@
 
 ```mermaid
 graph TD
-    A[Start] --> B[Fundamentals]
-    B --> C[Designing Data-Intensive Applications Book]
-    B --> D[MIT Distributed Systems Course]
-    B --> E[Martin Kleppmann's Distributed Systems Lecture Series]
-
-    C --> F[Data Models and Storage]
-    C --> G[Replication and Partitioning]
-    C --> H[Transactions and Consistency]
-
-    D --> I[RPC and Threads]
-    D --> J[Fault Tolerance]
-    D --> K[Consensus Algorithms]
-
-    F --> L[Practical Learning]
-    G --> L
-    H --> L
-    I --> L
-    J --> L
-    K --> L
-
-    L --> M[Kubernetes Basics]
-    L --> N[Key-Value Stores Comparison]
-
-    M --> O[Advanced Topics]
-    N --> O
-
-    O --> P[Landmark Papers]
-    O --> Q[Distributed Algorithms]
-    O --> R[System Design Concepts]
-
-    P --> S[Google File System]
-    P --> T[MapReduce]
-    P --> U[BigTable]
-    P --> V[Dynamo]
-    P --> W[Cassandra]
-    P --> X[Spanner]
-    P --> Y[F1]
-    P --> Z[Borg]
-    P --> AA[Dapper]
-    P --> AB[Chubby]
-    P --> AC[Zanzibar]
-    P --> AD[Shard Manager]
-    P --> AE[Monarch]
-
-    Q --> AF[Paxos]
-    Q --> AG[Raft]
-    Q --> AH[Vector Clocks]
-    Q --> AI[Two-Phase Commit]
-    Q --> AJ[Three-Phase Commit]
-    Q --> AK[Byzantine Fault Tolerance]
-
-    R --> AL[SAGA Pattern]
-    R --> AM[Transactional Outbox]
-    R --> AN[Workflow Engines]
-    R --> AO[Event Sourcing]
-    R --> AP[CQRS]
-
-    O --> AQ[Database Evolution]
-    AQ --> AR[Relational Databases]
-    AR -->|Limitations led to| AS[NoSQL Movement]
-    AS --> AT[Document Stores]
-    AS --> AU[Key-Value Stores]
-    AS --> AV[Column-Family Stores]
-    AS --> AW[Graph Databases]
-
-    AT --> AX[MongoDB]
-    AT --> AY[CouchDB]
-    AU --> AZ[Redis]
-    AU --> BA[Riak]
-    AV --> BB[Cassandra]
-    AV --> BC[HBase]
-    AW --> BD[Neo4j]
-    AW --> BE[OrientDB]
-
-    BF[CAP Theorem] --> AS
-    BG[Web 2.0 Era] --> AS
-    BH[Big Data Challenges] --> AS
-
-    AS --> BI[NewSQL Movement]
-    BI --> BJ[Google Spanner]
-    BI --> BK[CockroachDB]
-    BI --> BL[TiDB]
-
-    O --> BM[Streaming Systems]
-    BM --> BN[Kafka]
-    BM --> BO[Flink]
-    BM --> BP[Spark Streaming]
-
-    O --> BQ[Machine Learning in Distributed Systems]
-    BQ --> BR[Distributed ML Model Training]
-    BQ --> BS[Federated Learning]
-
-    O --> BT[Chaos Engineering]
-    O --> BU[RDMA (Remote Direct Memory Access)]
-
-    O --> BV[Formal Methods]
-    BV --> BW[TLA+]
-
-    O --> BX[Metrics and Monitoring]
-    BX --> BY[Prometheus]
-    BX --> BZ[Grafana]
-
-    O --> CA[Tracing]
-    CA --> CB[Jaeger]
-    CA --> CC[Zipkin]
-
-    O --> CD[Serverless Computing]
-    CD --> CE[AWS Lambda]
-    CD --> CF[Azure Functions]
-    CD --> CG[Google Cloud Functions]
-
-    O --> CH[Containerization]
-    CH --> CI[Docker]
-    CH --> CJ[Kubernetes]
-
-    O --> CK[Service Mesh]
-    CK --> CL[Istio]
-    CK --> CM[Linkerd]
-
-    O --> CN[Blockchain and Distributed Ledgers]
-    CN --> CO[Bitcoin]
-    CN --> CP[Ethereum]
-
-    P --> CQ[Attention Is All You Need]
-    P --> CR[FoundationDB]
-    P --> CS[Amazon Aurora]
-    P --> CT[Thrift]
-    P --> CU[MyRocks]
-    P --> CV[WTF: Twitter's Who To Follow]
-
-    Q --> CW[LCR Algorithm]
-    Q --> CX[HS Algorithm]
-    Q --> CY[TimeSlice Algorithm]
-    Q --> CZ[FloodMax Algorithm]
-    Q --> DA[Bellman-Ford Algorithm]
-    Q --> DB[GHS Algorithm]
-    Q --> DC[FloodSet Algorithm]
-    Q --> DD[Exponential Information Gathering]
-
-    R --> DE[Vector Databases]
-    R --> DF[In-Memory File Systems]
-
-    BX --> DG[Recovery Strategies]
-    BX --> DH[Data Quality Checking]
-
-    DI[System Design Interviews] --> DJ[Continued Learning and Practice]
-    O --> DI
+    A[Relational Databases] -->|Limitations led to| B[NoSQL Movement]
+    B --> C[Document Stores]
+    B --> D[Key-Value Stores]
+    B --> E[Column-Family Stores]
+    B --> F[Graph Databases]
+    C --> G[MongoDB 2009]
+    C --> H[CouchDB 2005]
+    D --> I[Redis 2009]
+    D --> J[Riak 2009]
+    E --> K[Cassandra 2008]
+    E --> L[HBase 2008]
+    F --> M[Neo4j 2007]
+    F --> N[OrientDB 2010]
+    O[Google's BigTable 2006] --> K
+    O --> L
+    P[Amazon's Dynamo 2007] --> J
+    Q[Facebook's Cassandra 2008] --> K
+    R[CAP Theorem 2000] --> B
+    S[Web 2.0 Era] --> B
+    T[Big Data Challenges] --> B
+    U[NewSQL Movement] --> V[Google Spanner 2012]
+    U --> W[CockroachDB 2014]
+    B --> U
 ```
