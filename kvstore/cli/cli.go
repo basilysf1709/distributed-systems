@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/yourusername/kvstore/pkg/kvstore"
+	"github.com/basilysf1709/distributed-systems/kvstore/pkg/kvstore"
 )
 
 func Run(args []string, kvs *kvstore.KVStore) error {

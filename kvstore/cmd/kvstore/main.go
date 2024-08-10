@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yourusername/kvstore/internal/cli"
-	"github.com/yourusername/kvstore/internal/store"
-	"github.com/yourusername/kvstore/pkg/kvstore"
+	"github.com/basilysf1709/distributed-systems/kvstore/internal/cli"
+	"github.com/basilysf1709/distributed-systems/kvstore/internal/store"
+	"github.com/basilysf1709/distributed-systems/kvstore/pkg/kvstore"
 )
 
 func main() {

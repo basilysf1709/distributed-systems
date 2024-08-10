@@ -36,7 +36,7 @@ kvstore/
 
 2. Clone this repository:
    ```
-   git clone https://github.com/yourusername/kvstore.git
+   git clone https://github.com/basilysf1709/distributed-systems.git
    cd kvstore
    ```
 

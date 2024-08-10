@@ -1,7 +1,7 @@
 package kvstore
 
 import (
-	"github.com/yourusername/kvstore/internal/store"
+	"github.com/basilysf1709/distributed-systems/kvstore/internal/store"
 )
 
 type KVStore struct {

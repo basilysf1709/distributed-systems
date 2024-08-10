@@ -18,7 +18,7 @@ This project implements a consistent hashing algorithm in Zig, demonstrating how
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/consistent-hashing-zig.git
+   git clone https://github.com/basilysf1709/consistent-hashing-zig.git
    cd consistent-hashing-zig
    ```
 
