@@ -1,6 +1,26 @@
-# Go Key-Value Store with CLI
+# Structured Go Key-Value Store
 
-This is a simple key-value store implemented in Go with a command-line interface (CLI) and JSON file persistence.
+This is a simple key-value store implemented in Go with a command-line interface (CLI) and JSON file persistence. The project is structured to allow easy expansion and addition of new features.
+
+## Project Structure
+
+```
+kvstore/
+├── cmd/
+│   └── kvstore/
+│       └── main.go           # Entry point of the application
+├── internal/
+│   ├── store/
+│   │   ├── store.go          # Internal implementation of the store
+│   │   └── json_persistence.go # JSON file persistence implementation
+│   └── cli/
+│       └── cli.go            # Command-line interface implementation
+├── pkg/
+│   └── kvstore/
+│       └── kvstore.go        # Public API for the key-value store
+├── go.mod
+└── README.md
+```
 
 ## Features
 
@@ -8,6 +28,7 @@ This is a simple key-value store implemented in Go with a command-line interface
 - Persistent storage using a JSON file
 - Command-line interface for easy interaction
 - Thread-safe operations
+- Modular design for easy expansion
 
 ## Installation
 
@@ -15,13 +36,13 @@ This is a simple key-value store implemented in Go with a command-line interface
 
 2. Clone this repository:
    ```
-   git clone https://github.com/basilysf1709/go-kv-store.git
+   git clone https://github.com/yourusername/kvstore.git
    cd kvstore
    ```
 
 3. Build the program:
    ```
-   go build -o kvstore
+   go build -o kvstore ./cmd/kvstore
    ```
 
 ## Usage
@@ -29,8 +50,6 @@ This is a simple key-value store implemented in Go with a command-line interface
 The program supports three main operations: set, get, and delete.
 
 ### Setting a Key-Value Pair
-
-To set a key-value pair:
 
 ```
 ./kvstore set <key> <value>
@@ -43,8 +62,6 @@ Example:
 
 ### Getting a Value
 
-To retrieve a value for a given key:
-
 ```
 ./kvstore get <key>
 ```
@@ -55,8 +72,6 @@ Example:
 ```
 
 ### Deleting a Key-Value Pair
-
-To delete a key-value pair:
 
 ```
 ./kvstore delete <key>
@@ -73,22 +88,16 @@ The key-value pairs are stored in a file named `kvstore.json` in the same direct
 
 ## Error Handling
 
-The program includes basic error handling:
+The program includes error handling:
 
 - If a file operation fails, an error message will be displayed.
 - If you try to get a non-existent key, the program will inform you that the key was not found.
 - If you use the program incorrectly, it will display usage instructions.
 
-## Limitations
+## Extending the Project
 
-- All values are stored as strings.
-- The entire store is read from and written to the file for each operation, which may be inefficient for large datasets.
-- There's no built-in way to list all keys or values.
+To add new features:
 
-## Future Improvements
-
-- Add a 'list' command to display all key-value pairs.
-- Implement backup and restore functionality.
-- Add support for different data types.
-- Create an interactive mode (REPL) for continuous operation.
-- Allow specifying a custom file path for the JSON storage.
+1. Implement new persistence methods in `internal/store/`
+2. Add new commands in `internal/cli/cli.go`
+3. Extend the public API in `pkg/kvstore/kvstore.go` if necessary
