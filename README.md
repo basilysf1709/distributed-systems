@@ -60,40 +60,29 @@
 
 ```mermaid
 graph TD
-    A[Start] --> B[Fundamentals]
-    B --> C[Designing Data-Intensive Applications Book]
-    B --> D[MIT Distributed Systems Course]
-    
-    C --> E[Data Models and Storage]
-    C --> F[Replication and Partitioning]
-    C --> G[Transactions and Consistency]
-    
-    D --> H[RPC and Threads]
-    D --> I[Fault Tolerance]
-    D --> J[Consensus Algorithms]
-    
-    E --> K[Practical Learning]
-    F --> K
-    G --> K
-    H --> K
-    I --> K
-    J --> K
-    
-    K --> L[Kubernetes Basics]
-    K --> M[Key-Value Stores Comparison]
-    
-    L --> N[Advanced Topics]
-    M --> N
-    
-    N --> O[Amazon Dynamo Paper]
-    N --> P[Google Systems Papers]
-    N --> Q[Distributed Algorithms]
-    
-    O --> R[System Design Interviews]
-    P --> R
-    Q --> R
-    
-    R --> S[Continued Learning and Practice]
+    A[Relational Databases] -->|Limitations led to| B[NoSQL Movement]
+    B --> C[Document Stores]
+    B --> D[Key-Value Stores]
+    B --> E[Column-Family Stores]
+    B --> F[Graph Databases]
+    C --> G[MongoDB 2009]
+    C --> H[CouchDB 2005]
+    D --> I[Redis 2009]
+    D --> J[Riak 2009]
+    E --> K[Cassandra 2008]
+    E --> L[HBase 2008]
+    F --> M[Neo4j 2007]
+    F --> N[OrientDB 2010]
+    O[Google's BigTable 2006] --> K
+    O --> L
+    P[Amazon's Dynamo 2007] --> J
+    Q[Facebook's Cassandra 2008] --> K
+    R[CAP Theorem 2000] --> B
+    S[Web 2.0 Era] --> B
+    T[Big Data Challenges] --> B
+    U[NewSQL Movement] --> V[Google Spanner 2012]
+    U --> W[CockroachDB 2014]
+    B --> U
 ```
 
 ---
