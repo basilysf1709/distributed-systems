@@ -120,6 +120,10 @@ graph TD
 
 ---
 
+## Systems Design Handbook
+
+![GVmHsYDWsAA9oWY](https://github.com/user-attachments/assets/4e2b1412-d0a9-4276-b9a1-7772fc099f74)
+
 ## Star History
 
 <picture>
