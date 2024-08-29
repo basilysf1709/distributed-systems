@@ -23,6 +23,42 @@ ing very large datasets or **very high write throughput**
   - better performance due to data **locality** (related data is usually close to each other
   - flexibility
 - Document stores have **schema-on-read** whereas SQL databases have **schema-on-write**
-- Stopped at **Data locality for queries** tbc
+- Data locality for queries
+   - Document models better if you frequently need entire document
+   - Less effective if you often access only parts of document
+- Convergence of document and relational databases
+   - Document databases adding join support
+   - Relational databases supporting JSON
+- Query Languages
+   - Declarative vs Imperative
+      - SQL is declarative
+      - Imperative languages describe how to perform specific operations
+- MapReduce Querying
+   - Used for processing large amounts of data across many machines
+   - Map: Transforms input data
+   - Reduce: Aggregates data
+   - Must be pure functions without side effects
+
+- Graph-Like Data Models
+   - Vertices (nodes) and edges (relationships)
+   - Use cases: social networks, web graphs, road networks
+   - Property graph model
+      - Used by Neo4j, Titan, InfiniteGraph
+   - Triple-store model
+      - Used by AllegroGraph, Datomic
+- Graph Query Languages
+   - Cypher: for property graphs (Neo4j)
+   - SPARQL: for RDF triple-stores
+   - Datalog: older, used in Cascalog for Hadoop
+- Graph vs Relational Databases
+   - Graphs better for flexible, unpredictable relationships
+   - Relational better when relationships are known in advance
+- Graph vs Document Databases
+   - Documents: self-contained data, rare relationships
+   - Graphs: anything potentially related to anything
+- Semantic Web
+   - Aim: machine-readable information on websites
+   - Uses Resource Description Framework (RDF)
+   - Limited practical implementation
   
     
