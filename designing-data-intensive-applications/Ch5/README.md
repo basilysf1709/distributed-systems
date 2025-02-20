@@ -39,11 +39,11 @@
   - System reconfiguration
 
 ### Trade-offs
-| Type | Consistency | Availability | Latency |
-|------|-------------|--------------|---------|
-| Single-Leader | Strong | Medium | Medium |
-| Multi-Leader | Eventually | High | Low |
-| Leaderless | Eventually | High | Low |
+| Type | Consistency | Availability | Latency | Use Case |
+|------|-------------|--------------|----------|-----------|
+| Single-Leader | Strong (sync) or Eventually (async) | Lower (during leader failure) | Higher (for writes) | Traditional databases, strong consistency needs |
+| Multi-Leader | Eventually | High | Low (local writes) | Geo-distributed applications, offline-first apps |
+| Leaderless | Eventually | High | Variable (depends on quorum) | High availability needs, can tolerate stale reads |
 
 ## Best Practices
 1. Choose replication strategy based on:
